@@ -1,0 +1,7 @@
+{
+    "mongoURL": "mongodb+srv://movie_review:moview123456@cluster2.dx4jz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret" :"mysecrettoken"
+}
+
+
+
