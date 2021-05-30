@@ -57,7 +57,7 @@ export default function Login(props) {
         // Post request to backend
         axios({
             method: 'post',
-            url: '/account/register',
+            url: '/api/use/signin',
             headers: {
                 'Content-Type': 'application/json',
             },
