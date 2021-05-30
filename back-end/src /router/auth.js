@@ -23,7 +23,7 @@ const valid = [
     check('password', 'please enter the sward password').isLength({ min: 6 })
 ]
 
-router.post('/login', valid,auth, async (req, res) => {
+router.post('/login', valid, async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({ errors: errors.array() });
